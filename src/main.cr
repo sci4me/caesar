@@ -128,5 +128,4 @@ begin
     end
 rescue
     puts "File '#{ARGV[1]}' not found"
-    exit
 end
