@@ -63,7 +63,7 @@ def calculate_letter_frequencies(str)
     total = 0
     
     str.each_char_with_index do |c, i|
-        next if !is_letter(c)
+        next unless is_letter(c)
         rc = to_letter_index(c)
         frequencies[rc] += 1
         total += 1
