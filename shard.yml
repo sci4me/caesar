@@ -4,9 +4,11 @@ version: 0.1.0
 authors:
   - Scitoshi Nakayobro <matthewtpeterson1@gmail.com>
 
+executables:
+  - caesar
 targets:
   caesar:
-    main: src/caesar.cr
+    main: src/main.cr
 
 crystal: 0.26.1
 
